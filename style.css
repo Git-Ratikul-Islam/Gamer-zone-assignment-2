@@ -1,4 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Oswald&family=Poppins:wght@700&family=Roboto+Condensed&display=swap');
+
+body {
+      font-family: 'Josefin Sans', sans-serif;
+      font-family: 'Lato', sans-serif;
+      font-family: 'Oswald', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto Condensed', sans-serif;
+}
+
 * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+}
+
+/* nav style starts here */
+
+.nav-container {
+      display: flex;
+      width: 80%;
+      margin: 40px auto;
+      /* margin-top: 40px; */
+      justify-content: space-around;
+      align-items: center;
+}
+
+
+.nav-logo-and-title {
+      display: flex;
+      align-items: center;
+      width: 50%;
+}
+
+.nav-logo-and-title img {
+      width: 86.041px;
+      height: 40px;
+      object-fit: cover;
+      margin-right: 20px;
+
+}
+
+nav a {
+      text-decoration: none;
+
+}
+
+.box-shadow-menu-follow-part {
+      border-radius: 8px;
+      background: rgba(11, 2, 35, 0.10);
+      border: none;
+      padding: 20px;
+
+}
+
+.box-shadow-menu-follow-part a {
+      margin-right: 20px;
+}
+
+.fa-youtube {
+      color: red;
+}
+
+.fa-tiktok {
+      color: black;
+}
+
+
+
+.box-shadow-menu-follow-part i {
+      margin-right: 10px;
 }
