@@ -11,7 +11,7 @@ body {
 * {
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
+      /* box-sizing: border-box; */
 }
 
 /* nav style starts here */
@@ -19,10 +19,13 @@ body {
 .nav-container {
       display: flex;
       width: 80%;
-      margin: 40px auto;
+      margin: 60px auto;
+      /* margin: 60px; */
       /* margin-top: 40px; */
       justify-content: space-around;
       align-items: center;
+
+
 }
 
 
@@ -69,4 +72,148 @@ nav a {
 
 .box-shadow-menu-follow-part i {
       margin-right: 10px;
+}
+
+/* Banner section style starts */
+
+.banner-section {
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-around;
+      padding: 20px;
+}
+
+
+
+
+
+.banner-text-area h1 {
+      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      font-size: 95px;
+      font-weight: 800;
+
+}
+
+.banner-text-area h2 {
+      color: #0B0223;
+      text-align: center;
+      font-size: 55px;
+      font-weight: 600;
+
+
+}
+
+.banner-icons i {
+      margin-right: 15px;
+      margin-bottom: 15px;
+
+}
+
+.banner-icons {
+      padding: 25px;
+}
+
+
+
+
+.banner-button {
+      padding: 21px 40px;
+      border-radius: 48px;
+      background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+      color: #FFFFFF;
+      border: none;
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 600;
+
+
+}
+
+
+
+
+.banner-button-color {
+      border-radius: 48px;
+      background: #4EC5F7;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile-device-responsive */
+@media screen and (max-width: 576px) {
+
+      .nav-container {
+            flex-direction: column;
+
+      }
+
+      .nav-logo-and-title a {
+            margin-top: 30px;
+      }
+
+      .box-shadow-menu-follow-part {
+            margin-top: 30px;
+            margin-bottom: 38px;
+      }
+
+      .mobile-device-margin {
+            margin: 30px;
+      }
+}
+
+
+/* Medium devices styles */
+
+@media screen and (max-width:768px) {
+
+      .nav-container {
+
+            flex-direction: column;
+
+      }
+
+      .nav-logo-and-title {}
+
 }
