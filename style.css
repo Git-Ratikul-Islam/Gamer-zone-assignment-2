@@ -11,7 +11,7 @@ body {
 * {
       margin: 0;
       padding: 0;
-      /* box-sizing: border-box; */
+      box-sizing: border-box;
 }
 
 /* nav style starts here */
@@ -75,17 +75,16 @@ nav a {
 }
 
 /* Banner section style starts */
+.banner-text-area {}
 
 .banner-section {
       display: flex;
-      margin: 0 auto;
+      margin: auto;
       justify-content: space-around;
       padding: 20px;
+      padding-top: 50px;
+
 }
-
-
-
-
 
 .banner-text-area h1 {
       background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -103,7 +102,7 @@ nav a {
       text-align: center;
       font-size: 55px;
       font-weight: 600;
-
+      margin-top: 150px;
 
 }
 
@@ -116,9 +115,6 @@ nav a {
 .banner-icons {
       padding: 25px;
 }
-
-
-
 
 .banner-button {
       padding: 21px 40px;
@@ -133,49 +129,13 @@ nav a {
 
 }
 
-
-
-
 .banner-button-color {
       border-radius: 48px;
       background: #4EC5F7;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.banner-img-area {}
 
 
 
@@ -184,7 +144,9 @@ nav a {
 /* Mobile-device-responsive */
 @media screen and (max-width: 576px) {
 
-      .nav-container {
+      .nav-container,
+
+      .banner-section {
             flex-direction: column;
 
       }
@@ -195,13 +157,39 @@ nav a {
 
       .box-shadow-menu-follow-part {
             margin-top: 30px;
-            margin-bottom: 38px;
+            margin-bottom: -100px;
       }
 
       .mobile-device-margin {
             margin: 30px;
       }
+
+      .banner-section {
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+      }
+
+      .banner-text-area {
+            text-align: center;
+            margin-bottom: 50px;
+      }
+
+      .banner-img-area {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+      }
+
+      .banner-img-area img {
+            max-width: 100%;
+            max-height: 100%;
+      }
 }
+
+
+
 
 
 /* Medium devices styles */
