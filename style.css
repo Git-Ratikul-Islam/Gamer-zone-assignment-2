@@ -25,6 +25,30 @@ body {
       margin-top: 24px;
 }
 
+.gamer-text {
+      font-size: 45px;
+      font-weight: 700;
+
+}
+
+header li {
+      color: #3C354F;
+      text-align: center;
+      font-family: Work Sans;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+}
+
+.g-text {
+      background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+}
+
 /* nav style starts here */
 
 .nav-container {
@@ -67,6 +91,7 @@ nav a {
 
 }
 
+
 .box-shadow-menu-follow-part a {
       margin-right: 20px;
 }
@@ -83,6 +108,19 @@ nav a {
 
 .box-shadow-menu-follow-part i {
       margin-right: 10px;
+}
+
+.box-shadow-menu-follow-part {
+      transition: box-shadow .3s;
+      width: 210px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      background: #fff;
+      float: left;
+}
+
+.box-shadow-menu-follow-part:hover {
+      box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
 /* Banner section style starts */
@@ -171,6 +209,17 @@ nav a {
 .button {
       margin-left: 10px;
 }
+
+.second-button {
+      border-radius: 48px;
+      background: #4EC5F7;
+}
+
+
+
+
+
+
 
 /* Card items starts here */
 .grid-the-card img {
@@ -265,6 +314,9 @@ nav a {
 }
 
 
+
+
+
 /* Download section styles stars here */
 
 .Download-section {
@@ -305,14 +357,16 @@ nav a {
       right: 150px;
 }
 
+
+
 /* games sectin style starts here */
 .games-section {
       max-width: 100%;
       margin: 0 auto;
-      height: 400px;
+      height: 90vh;
       background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
       padding: 100px 200px;
-      height: 40vh;
+
 
 }
 
@@ -335,6 +389,97 @@ nav a {
       width: 240px;
       height: 80px;
 }
+
+.border img {
+      margin-left: 8px;
+}
+
+.border {
+      border: 2px solid white;
+      transition: border-color 0.3s ease;
+}
+
+.border:hover {
+      border-color: #F948B2;
+}
+
+/* footer section starts here */
+footer {
+      max-width: 1920px;
+      height: 636px;
+      background: #0B0223;
+      text-align: center;
+      color: white;
+      justify-items: center;
+}
+
+.logo-and-text {
+      display: flex;
+      padding-top: 135px;
+      text-align: center;
+      justify-content: center;
+      gap: 10px;
+}
+
+.about-text-footer ul {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      list-style: none;
+}
+
+.about-text-footer ul li {
+      padding: 60px;
+}
+
+.icons-div {
+      display: flex;
+      justify-content: center;
+}
+
+.icons-div i {
+      padding: 10px 40px;
+      font-size: 40px;
+}
+
+
+
+.terms-condition ul {
+      list-style: none;
+      justify-content: center;
+      display: flex;
+}
+
+.terms-condition ul li {
+      padding: 40px 60px;
+      color: rgba(255, 255, 255, 0.60);
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+}
+
+.copyright-text {
+      padding: 60px;
+      color: rgba(255, 255, 255, 0.60);
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -444,9 +589,7 @@ nav a {
 
       .games-section {
 
-            /* margin-left: 10px; */
-            margin: 10px;
-
+            padding: 40px;
       }
 
       .games-img {
@@ -464,6 +607,39 @@ nav a {
             height: 80px;
 
       }
+
+      footer {
+            height: 150vh;
+
+      }
+
+      .about-text-footer ul {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 20px;
+            padding-top: 34px;
+
+      }
+
+      .about-text-footer ul li {
+            padding: 5px 30px;
+      }
+
+      .icons-div {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding-top: 70px;
+      }
+
+      .terms-condition ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+      }
+
+
+
+
 
 
 
