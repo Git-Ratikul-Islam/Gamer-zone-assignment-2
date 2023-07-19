@@ -127,6 +127,8 @@ nav a {
       padding: 25px;
 }
 
+/* Buttons style and hover styles */
+
 .banner-button {
       padding: 21px 40px;
       border-radius: 48px;
@@ -144,6 +146,30 @@ nav a {
       border-radius: 48px;
       background: #4EC5F7;
 
+}
+
+.banner-button {
+
+      padding: 21px 40px;
+      margin: 5px;
+      font-size: 16px;
+      background-color: #ff6b6b;
+      color: #fff;
+      border: none;
+      border-radius: 48px;
+      cursor: pointer;
+      transition: transform 0.3s;
+      background-image: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+      ;
+}
+
+.banner-button:hover {
+      transform: scale(1.1);
+      background-image: linear-gradient(to right, rgb(161, 123, 213), rgb(195, 79, 174)0);
+}
+
+.button {
+      margin-left: 10px;
 }
 
 /* Card items starts here */
@@ -226,6 +252,9 @@ nav a {
 .card-overlay i {
       font-size: 40px;
       color: white;
+      padding-left: 13px;
+      padding-bottom: 8px;
+      display: flex;
 }
 
 .overlay-text {
@@ -236,7 +265,45 @@ nav a {
 }
 
 
+/* Download section styles stars here */
 
+.Download-section {
+      max-width: 80%;
+      margin: 20px auto;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.text-section-downloads {
+      text-align: center;
+}
+
+.text-section-downloads h1 {
+      font-size: 48px;
+      font-weight: 700;
+
+}
+
+.download-play-text {
+      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+.img-section-downloads {
+      padding-top: 280px;
+
+}
+
+
+.relative-img {
+      position: relative;
+      bottom: 265px;
+      right: 150px;
+}
 
 
 
@@ -299,11 +366,60 @@ nav a {
             padding: 15px;
       }
 
+      .Download-section {
+            flex-direction: column;
+            align-items: center;
+            height: auto;
 
+      }
 
+      .text-section-downloads {
+            padding-top: 100px;
+      }
 
+      .img-section-downloads {
+            display: flex;
+            justify-content: center;
+            /* Center the image horizontally */
+            align-items: center;
+            /* Center the image vertically */
+            flex-wrap: wrap;
+            margin-top: -174px;
 
+      }
+
+      .relative-img {
+            position: relative;
+            bottom: 100px;
+            right: 100px;
+            /* margin-top: 20px; */
+      }
+
+      /* Adjust the image size */
+      .king-image {
+            max-width: 100%;
+            height: auto;
+            margin: 0 5px 0px 45px;
+      }
+
+      .pussycat-img {
+            max-width: 84%;
+            height: auto;
+            padding: 70px;
+            position: relative;
+            bottom: 130px;
+            right: 10px;
+
+      }
 }
+
+
+
+
+
+
+
+
 
 
 
