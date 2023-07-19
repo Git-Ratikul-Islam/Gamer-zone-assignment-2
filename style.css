@@ -305,6 +305,36 @@ nav a {
       right: 150px;
 }
 
+/* games sectin style starts here */
+.games-section {
+      max-width: 100%;
+      margin: 0 auto;
+      height: 400px;
+      background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+      padding: 100px 200px;
+      height: 40vh;
+
+}
+
+
+.games-img {
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+}
+
+.border {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-right: 10px;
+      border-radius: 50px;
+      background: #FFF;
+      width: 240px;
+      height: 80px;
+}
 
 
 
@@ -407,21 +437,37 @@ nav a {
             height: auto;
             padding: 70px;
             position: relative;
-            bottom: 130px;
+            bottom: 95px;
             right: 10px;
 
       }
+
+      .games-section {
+
+            /* margin-left: 10px; */
+            margin: 10px;
+
+      }
+
+      .games-img {
+            /* margin: 50px; */
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 0 7px;
+
+      }
+
+      .border {
+
+            width: 190px;
+            height: 80px;
+
+      }
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
