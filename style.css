@@ -340,7 +340,7 @@ nav a {
 .Download-section {
       max-width: 80%;
       margin: 20px auto;
-      height: 90vh;
+      /* height: 90vh; */
       display: flex;
       align-items: center;
       justify-content: space-around;
@@ -379,22 +379,27 @@ nav a {
 
 /* games sectin style starts here */
 .games-section {
-      max-width: 100%;
-      margin: 0 auto;
-      /* height: 90vh; */
+
+
+      /* height: 80vh; */
       background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-      padding: 100px 200px;
+      /* padding: 100px 200px; */
+      /* padding-top: 250px; */
+      padding: 30px 30px;
+
 
 
 }
 
 
 .games-img {
-
+      max-width: 80%;
+      margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 10px;
+
 }
 
 .border {
@@ -423,8 +428,7 @@ nav a {
 
 /* footer section starts here */
 footer {
-      max-width: 1920px;
-      height: 636px;
+      max-width: 100%;
       background: #0B0223;
       text-align: center;
       color: white;
@@ -447,7 +451,7 @@ footer {
 }
 
 .about-text-footer ul li {
-      padding: 60px;
+      padding: 40px;
 }
 
 .icons-div {
@@ -459,8 +463,6 @@ footer {
       padding: 10px 40px;
       font-size: 40px;
 }
-
-
 
 .terms-condition ul {
       list-style: none;
@@ -482,24 +484,7 @@ footer {
       text-align: center;
       font-size: 16px;
       font-weight: 500;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Mobile-device-responsive */
@@ -590,18 +575,18 @@ footer {
 
       /* Adjust the image size */
       .king-image {
-            max-width: 100%;
+            max-width: 80%;
             height: auto;
             margin: 0 5px 0px 45px;
       }
 
       .pussycat-img {
-            max-width: 84%;
+            max-width: 79%;
             height: auto;
             padding: 70px;
             position: relative;
-            bottom: 95px;
-            right: 10px;
+            bottom: 80px;
+            left: 35px;
 
       }
 
@@ -661,60 +646,67 @@ footer {
 /* Medium devices styles */
 
 @media screen and (min-width:576px) and (max-width:768px) {
-      nav {
-            padding: 25px;
-      }
 
       .nav-container,
-      .banner-section,
-      .Download-section,
-      .card-main-parent {
+      .banner-section {
             flex-direction: column;
-            align-items: center;
-            margin-left: 200px;
+            text-align: center;
       }
 
       .nav-logo-and-title {
-            margin-left: 50px;
+            padding-left: 30px;
+      }
+
+      .banner-text-area {
+            padding-left: 50px;
+      }
+
+      .banner-icons {
+            text-align: center;
+      }
+
+      .button {
+            text-align: center;
+      }
+
+      .banner-img-area img {
+            padding: 50px;
+            width: 100%;
+      }
+
+      .grid-the-card {
+            display: flex;
+            flex-wrap: wrap;
 
       }
 
-      .main-parent-of-cards {
-            margin-bottom: 700px;
+      .Download-section {
+            flex-direction: column;
+
       }
 
       .king-image {
-            margin-left: 90px;
+            width: 90%;
+            padding-left: 150px;
       }
 
       .pussycat-img {
-            margin-left: 130px;
-            padding: 30px;
-            margin-bottom: 50px;
+            position: relative;
+            width: 35%;
+            left: 220px;
+            top: 98px;
       }
 
       .games-section {
-            margin-top: 300px;
-            width: 768px;
-            padding: 100px 500px;
-      }
-
-      .games-img {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            max-width: 768px;
       }
 
       footer {
-            padding: 100px 500px;
-            padding-bottom: 800px;
-
-
+            max-width: 100%;
       }
 
-      .copyright-text {
-            padding: 0px;
+      .about-text-footer ul li {
+            padding: 30px;
+
       }
-
-
-
 }
